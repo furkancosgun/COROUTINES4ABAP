@@ -1,9 +1,9 @@
 *&---------------------------------------------------------------------*
-*& Report zcoroutines4abap_demo
+*& Report zcoroutines4abap_demo2
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT zcoroutines4abap_dem02.
+REPORT zcoroutines4abap_demo2.
 
 CLASS zcl_example_coroutine DEFINITION.
   PUBLIC SECTION.
