@@ -1,5 +1,4 @@
 # COROUTINES FOR ABAP
-
 This project showcases the use of coroutines in ABAP for handling asynchronous operations. Coroutines enable the concurrent execution of tasks, allowing you to perform operations such as database queries and background processing more efficiently. By using coroutines, you can execute tasks asynchronously and manage their completion within your ABAP programs.
 
 ## License
@@ -12,13 +11,11 @@ This project is licensed under the [MIT License](LICENSE). See the LICENSE file 
   - [Background Processing with Coroutines](#background-processing-with-coroutines)
 
 ### Overview
-
 This project provides a framework for implementing coroutines in ABAP. Coroutines are designed to handle multiple concurrent operations, making them useful for optimizing performance and enhancing the responsiveness of your applications. The framework includes methods for starting, managing, and awaiting coroutines, enabling more efficient processing of asynchronous tasks.
 
 ### Examples
 
 #### Awaiting Results from a Coroutine
-
 This example demonstrates how to use a coroutine to perform an asynchronous database query and then retrieve the results. The coroutine queries material data from the `MARA` table based on a specified material number range and returns the results when the operation is completed.
 
 **Coroutine Class Definition:**
@@ -82,7 +79,6 @@ START-OF-SELECTION.
 ```
 
 #### Background Processing with Coroutines
-
 This example illustrates how to use a coroutine for background processing tasks, such as sending an email. The coroutine performs the email sending operation asynchronously, allowing the main program to continue executing without waiting for the email process to complete.
 
 **Coroutine Class Definition:**
